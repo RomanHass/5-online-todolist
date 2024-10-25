@@ -1,0 +1,37 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.todolist {
+  padding: 15px;
+  background-color: cadetblue;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}
+
+.task {
+  font-weight: 700;
+}
+
+.task-done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.filter-btn-active {
+  font-weight: 700;
+  background-color: chocolate;
+  border-radius: 3px;
+  color: #fff;
+  border: 2px solid chocolate;
+}
+
+.input-error {
+  border: 2px solid orange;
+  outline: transparent;
+}
